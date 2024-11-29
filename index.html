@@ -5,14 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .container{
-            display: flex;
-            justify-content: center;
-            align-content: center;
-            gap: 20px;
-        }
+        
           .md{
-            width: 450px;
+            border: 2px solid;
+            background-color: black;
             display: grid;
             grid-template-areas:
             "area1 area2 area2 area3 area4 area4 area5 area5 area5 area5 area6"
@@ -79,11 +75,62 @@
              align-content: center;
              text-align: center;
           }
+          .md2{
+            border: 2px solid;
+            background-color: blue;
+            display: grid;
+            grid-template-areas:
+            "area1 area2 area2 area3"
+            "area1 area4 area5 area6"
+            "area1 area7 area8 area6";
+            grid-template-rows: 75px 75px 75px;
+            gap: 10px;
+            padding: 10px;
+            border-radius: 10px;
+         }
+         .div21{
+            background-color: black;
+            color: white;
+            grid-area: area1;
+         }
+         .div22{
+            background-color: brown;
+            grid-area: area2;
+         }
+         .div23{
+            background-color: gold;
+            grid-area: area3;
+         }
+         .div24{
+            background-color:red;
+            grid-area: area4;
+         }
+         .div25{
+            background-color: orange;
+            grid-area: area5;
+         }
+         .div26{
+            background-color: green;
+            grid-area: area6;
+         }
+         .div27{
+            background-color: chartreuse;
+            grid-area: area7;
+         }
+         .div28{
+            background-color: deeppink;
+            grid-area: area8;
+         }
+         .md2 div{
+            align-content: center;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 20px;
+         }
         
     </style>
 </head>
 <body>
-    <div class="container">
             <div class="md">
                 <div class="div1">1</div>
                 <div class="div2">2</div>
@@ -94,7 +141,18 @@
                 <div class="div7">7</div>
                 <div class="div8">8</div>
             </div>
-            
-        </div>
+            <br><br>
+            <br><br>
+            <div class="md2">
+               <div class="div21">1</div>
+               <div class="div22">2</div>
+               <div class="div23">3</div>
+               <div class="div24">4</div>
+               <div class="div25">5</div>
+               <div class="div26">6</div>
+               <div class="div27">7</div>
+               <div class="div28">8</div>
+
+         </div>
 </body>
 </html>
